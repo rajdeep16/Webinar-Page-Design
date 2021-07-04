@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Allura|Josefin+Sans');
+box-sizing:border-box;
+* {
+	margin: 0;
+	padding:  0;
+	box-sizing:  border-box;
+}
+body{
+    background: #08149e;
+	margin:  0px;
+	padding:  0px;
+	text-align:  center;
+	font-family: 'Josefin Sans', sans-serif;
+
+}
+header {
+	padding:  20px;
+		color: black;
+	border-radius: 0px;
+	background: #02f02e;
+	font-size: 150%;
+}
+section {
+	width: 75%;
+	float: left;
+	height:  400px;
+	background: none;
+	text-decoration: none;
+	color: whitesmoke;
+	font-size: large;
+
+}
+.right {
+	width:  25%;
+	float: left;
+	height: 400px;
+	background: dodgerblue;
+	border-radius: 0px;
+	
+}
+.main * {
+	border-radius:  0px;
+}
+.main {
+  margin:  0px 0px;
+  background-repeat: no-repeat;
+  background-image:url("two.jpg");  
+  background-size: cover;
+  background-attachment: fixed;
+}
+.main::after{
+	content: "";
+	clear:  both;
+	display: table;
+}
+.center {
+	text-align: center;
+	border: black;
+	text: center;
+}
+.inside {
+	background-color:  none;
+	width: 80%;
+	text-align:  center;
+	margin:  0 auto;
+
+}
+.container {
+	align-content: center;
+	align-items: center;
+}
+.wrapper{
+	margin-top:  50px;
+
+
+}
+.wrapper h1{
+	font-family: 'Allura', ;
+	font-size: 52px;
+	margin-bottom: 60px;
+   text-align: center;
+}
+.team{
+   display:  flex;
+   justify-content: center;
+  width: auto;
+  text-align: center;
+  flex-wrap: wrap;
+   background:#08149e;
+}
